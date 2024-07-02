@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { palete } from "./ColorPallete";
-import "../Colors/Colors.css";
+import "./Colors.css";
 import { Copy } from "lucide-react";
 export default function Colors() {
   const [i, setI] = useState(0);
